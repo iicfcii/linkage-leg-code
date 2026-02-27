@@ -1,0 +1,14 @@
+name: linkage-leg
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu126
+    - torch
+    - matplotlib
+    - PyQt6
+    - scipy
+    - cadquery
+    - networkx
