@@ -1,5 +1,21 @@
 # Code for Multi-Degree-of-Freedom Planar Linkage Synthesis for Leg Designs
 
+The features of this linkage synthesis tool are: 
+- support of a large number of multi-DoF series, parallel, and hybrid topologies; 
+- compatibility with a wide range of costs and constraints; 
+- fast and scalable optimization on GPUs;
+- and open-source implementation in Python. 
+
+Here are three design examples including an one DoF 6-bar walking mechanism, a two DoF 7-bar parallel leg, and a three DoF 8-bar hybrid leg with a remotely actuated ankle. 
+
+For more details, please refer to the [paper](assets/paper.pdf). 
+
+<p align="center">
+  <img src="assets/one_dof_leg.gif" width="30%" />
+  <img src="assets/two_dof_parallel_leg.gif" width="30%" />
+  <img src="assets/three_dof_hybrid_leg.gif" width="30%" />
+</p>
+
 ## Setup
 Clone this repository and create the Python environment. An environment file for [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) is provided and can be used with the following command. 
 

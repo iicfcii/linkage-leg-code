@@ -10,5 +10,4 @@ dependencies:
     - matplotlib
     - PyQt6
     - scipy
-    - cadquery
     - networkx
